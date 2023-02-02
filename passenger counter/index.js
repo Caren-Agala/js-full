@@ -19,4 +19,17 @@ function countdown() {
 
 countdown()
 countdown()
- increment()
+ increment() 
+
+ let lap1 = 34
+ let lap2 = 33
+ let lap3 = 36
+
+ var totalTime
+ totalTime = lap1 + lap2 + lap3
+
+ function Time() {
+    console.log(totalTime)
+ }
+
+ Time()
