@@ -1,11 +1,15 @@
-let count = 0;
+// let firstBatch = 5
+// let secondBatch = 7
 
-console.log(count);
-// let saveEl = document.get
-// document.getElementById("count-el").innerText = 5
+// let count = firstBatch + secondBatch;
+
+// console.log(count);
 
 var myAge
-let today = new Date()
-myAge = 22
-console.log(myAge) , 
-console.log(today)
+var humanDogRatio
+
+myAge = 35
+humanDogRatio = 7
+
+let myDogAge = myAge * humanDogRatio
+console.log(myDogAge)
