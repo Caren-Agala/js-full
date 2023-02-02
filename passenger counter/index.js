@@ -1,15 +1,9 @@
-// let firstBatch = 5
-// let secondBatch = 7
+// initialize count as 0
+// listen for clicks on the increment button//
+// increment the count variable when the increment button is clicked
+//change the count-el in HTML to reflect the new value
 
-// let count = firstBatch + secondBatch;
 
-// console.log(count);
-
-var myAge
-var humanDogRatio
-
-myAge = 35
-humanDogRatio = 7
-
-let myDogAge = myAge * humanDogRatio
-console.log(myDogAge)
+function increment() {
+    console.log("button was clicked")
+}
