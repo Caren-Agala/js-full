@@ -14,9 +14,11 @@ function increment() {
 }
 
 function save() {
-    let countString = count + ' - '
-    saveEl.innerText += countString
-    console.log(count)
+    let countString = ' ' + count + ' - '
+    saveEl.textContent += countString
+    countEl.textContent = 0
+    count = 0
+    
 }
 
 
