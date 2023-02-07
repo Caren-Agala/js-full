@@ -1,8 +1,9 @@
 
-
+let saveEl = document.getElementById("save-el")
 let countEl = document.getElementById("count-el")
 
 console.log(countEl)
+console.log(saveEl)
 
 let count = 0;
 
@@ -13,28 +14,9 @@ function increment() {
 }
 
 function save() {
+    let countString = count + ' - '
+    saveEl.innerText += countString
     console.log(count)
 }
-
-let usernames = "John"
-
-let message = "You have three notifications"
-
-console.log(message + ", " + usernames + "!")
-
-var messageToUser
-messageToUser = message + ", " + usernames + "!"
-
-console.log(messageToUser)
-
-
-var name = "Caren"
-var greeting = "Hi, my name is "
-
-
-console.log(greeting + " " + name)
-
-var myGreeting = greeting + " " + name
-console.log(myGreeting)
 
 
